@@ -1,0 +1,121 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 auto;
+}
+
+nav li {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.container {
+    border: 2px solid #c0c0c0;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container {
+    width: 100%;
+}
+
+.text-container {
+    display: block;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 50px;
+}
+
+.deep-sky-blue {
+    background-color: #00BFFF;
+}
+
+.dodger-blue {
+    background-color: #1E90FF;
+}
+
+.dark-blue {
+    background-color: #00008B;
+    color: gray;
+}
+
+.light-sky-blue {
+    background-color: #87CEFA;
+}
+
+.font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.noto-sans {
+    font-family: 'Noto sans', sans-serif;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.red-hat-display {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text-panel h1 {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.text-panel nav {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-panel h2 {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.text-panel p {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.btn1, .btn2 {
+    color: #000;
+    cursor: pointer;
+    background-color: #1E90FF;
+}
